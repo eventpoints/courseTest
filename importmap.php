@@ -27,4 +27,143 @@ return [
     '@hotwired/turbo' => [
         'version' => '7.3.0',
     ],
+    'tailwindcss' => [
+        'version' => '3.4.1',
+    ],
+    'postcss' => [
+        'version' => '3.0.7',
+    ],
+    'picocolors' => [
+        'version' => '1.0.0',
+    ],
+    'nanoid/non-secure' => [
+        'version' => '3.3.7',
+    ],
+    'postcss-loader' => [
+        'version' => '8.1.0',
+    ],
+    'autoprefixer' => [
+        'version' => '4.0.0',
+    ],
+    'autoprefixer-core' => [
+        'version' => '4.0.2',
+    ],
+    'caniuse-db/data' => [
+        'version' => '1.0.30001588',
+    ],
+    'postcss/lib/vendor' => [
+        'version' => '3.0.7',
+    ],
+    'postcss/lib/list' => [
+        'version' => '3.0.7',
+    ],
+    'caniuse-db/features-json/border-radius' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-boxshadow' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-animation' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-transitions' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/transforms2d' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/transforms3d' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-gradients' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css3-boxsizing' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-filters' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/multicolumn' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/user-select-none' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/flexbox' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/calc' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/background-img-opts' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/font-feature' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/border-image' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-selection' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-placeholder' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-hyphens' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/fullscreen' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css3-tabsize' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/intrinsic-width' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css3-cursors-newer' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-sticky' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/pointer' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/text-size-adjust' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-masks' => [
+        'version' => '1.0.30001588',
+    ],
+    'caniuse-db/features-json/css-boxdecorationbreak' => [
+        'version' => '1.0.30001588',
+    ],
+    'flowbite' => [
+        'version' => '2.3.0',
+    ],
+    '@popperjs/core' => [
+        'version' => '2.11.8',
+    ],
+    'flowbite/dist/flowbite.min.css' => [
+        'version' => '2.3.0',
+        'type' => 'css',
+    ],
+    'flowbite/plugin' => [
+        'version' => '2.3.0',
+    ],
+    'mini-svg-data-uri' => [
+        'version' => '1.4.4',
+    ],
+    'tailwindcss/plugin' => [
+        'version' => '3.4.1',
+    ],
+    'tailwindcss/defaultTheme' => [
+        'version' => '3.4.1',
+    ],
+    'tailwindcss/colors' => [
+        'version' => '3.4.1',
+    ],
 ];

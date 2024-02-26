@@ -1,0 +1,36 @@
+{% block custom_checkbox_label %}
+    <h3 class="mb-5 text-lg font-medium text-gray-900 dark:text-white">{{ form.vars.label|trans|capitalize }}</h3>
+{% endblock %}
+
+{% block custom_checkbox_widget %}
+    <ul>
+        {% for choice in choices %}
+            <li class="mb-3">
+                <input type="checkbox"
+                       id="{{ id ~ '_' ~ choice.value }}" value="" class="hidden peer" required="">
+                <label for="{{ id ~ '_' ~ choice.value }}"
+                       class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border-2 border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <span class="block">
+                        <span class="w-full text-lg font-semibold">
+                            {% set extra = form.vars.extra[choice.value] %}
+                            {% if extra is defined %}
+                                <div class="flex justify-start align-middle">
+                                {% if extra.icon is not null %}
+                                    <div class="{{ extra.icon }} me-3"></div>
+                                {% endif %}
+                                <div>{{ choice.label|default(null)|trans({}, translation_domain) }}</div>
+                                </div>
+                                <div
+                                        class="text-sm text-gray-600">{{ extra.subtitle|default(null)|trans({}, translation_domain) }}</div>
+                            {% else %}
+                                {{ choice.label|default(null)|trans({}, translation_domain) }}
+                            {% endif %}
+                        </span>
+                    </span>
+                </label>
+            </li>
+        {% else %}
+            <li class="list-group-item text-center text-muted">{{ form.vars.empty_message }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
